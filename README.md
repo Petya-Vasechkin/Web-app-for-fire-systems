@@ -4,7 +4,7 @@ A React web application for assessing the operational readiness and technical co
 
 ## Application preview
 
-![Fire Systems Readiness Analyzer interface](./assets/app-preview.png)
+![Fire Systems Readiness Analyzer interface](./assets/application-preview.png)
 
 ## Features
 
