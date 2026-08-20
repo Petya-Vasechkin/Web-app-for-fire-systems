@@ -1,6 +1,6 @@
 # Fire Systems Readiness Analyzer
 
-A React web application for assessing the operational readiness and technical condition of fire-safety systems.
+A React-based web application developed as a diploma project for assessing the readiness and technical condition of fire-safety systems. The application provides an interface for working with fire-system information, creating and editing building schemes, and supporting safety-management workflows.
 
 ## Application preview
 
@@ -8,10 +8,11 @@ A React web application for assessing the operational readiness and technical co
 
 ## Features
 
-- Enter and review fire-system technical information
-- Assess the operational readiness and technical condition of a fire system
-- Display assessment results in a clear web interface
-- Provide a structured workflow for reviewing fire-safety data
+- User-friendly web interface for working with fire-safety system data
+- Creation and editing of building layouts and fire-system schemes
+- Supporting pages and workflows required for system operation
+- A foundation for assessing the readiness and technical condition of fire-safety systems
+- A structured solution designed to improve safety management and support timely response to fire-safety incidents
 
 ## Technology stack
 
@@ -19,8 +20,6 @@ A React web application for assessing the operational readiness and technical co
 - JavaScript
 - HTML5
 - CSS3
-- Create React App
-- Webpack
 
 ## Prerequisites
 
