@@ -1,0 +1,98 @@
+.border-for-registration {
+    min-height: 610px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.registration-container {
+    width: 100%;
+    max-width: 750px;
+    min-height: 500px;
+    margin: auto;
+    background-color: #ffffff;
+    border-radius: 8px;
+    /* border: 2px solid #2d2f31; */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-r-logo-registration {
+    height: auto;
+    width: auto;
+    max-height: 60px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10%;
+    margin-top: 20px;
+    margin-bottom: 1rem;
+}
+
+/* .registration-form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    max-width: 500px;
+    margin: auto;
+} */
+
+.registration-form,
+.button-for-password-input {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.registration-form input,
+.registration-form button,
+.registration-form p {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 1rem;
+    padding: 8px;
+}
+
+.registration-form input {
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.registration-form button {
+    border: none;
+    border-radius: 20px;
+    background-color: #2d2f31;
+    color: white;
+    cursor: pointer;
+    max-width: 100px;
+}
+
+.button-for-password-input {
+    position: relative;
+}
+
+.button-for-password-input button {
+    max-width: 80px;
+    position: absolute;
+    padding: 7px;
+    background-color: transparent;
+    color: #2d2f31;
+    right: 210px;
+    top: 2px;
+}
+
+.registration-form p {
+    color: #2d2f31;
+    text-align: center;
+    margin: 0;
+}
+
+.registration-form .error {
+    color: #d32f2f;
+    text-align: center;
+    margin-bottom: 1rem;
+}

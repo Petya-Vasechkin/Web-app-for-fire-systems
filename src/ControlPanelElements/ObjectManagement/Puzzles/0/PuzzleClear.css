@@ -1,0 +1,21 @@
+.parent-container-puzzle-clear {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.puzzle-container-puzzle-clear{
+    position: absolute;
+}
+
+.puzzle-clear-length {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+}
+
+/* .puzzle-clear-height {
+    width: 3px;
+    height: 50px;
+    background-color: #333;
+} */

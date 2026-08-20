@@ -1,0 +1,13 @@
+.puzzle-container-puzzle-two {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.puzzle-two {
+    min-width: 3px;
+    height: 53px;
+    background-color: #333;
+}

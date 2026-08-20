@@ -1,0 +1,73 @@
+.Navbar-button {
+    background-color: transparent;
+    /* Прозрачный фон */
+    border: none;
+    color: #2d2f31;
+    font-family: var(--menu-text);
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 1rem;
+    cursor: pointer;
+
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    position: relative;
+
+}
+
+.Navbar-button::before,
+.Navbar-button::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+.Navbar-button::before {
+    top: -5px;
+}
+
+.Navbar-button::after {
+    bottom: -5px;
+}
+
+.Navbar-button:hover::before,
+.Navbar-button:hover::after {
+    background-color: transparent;
+}
+
+.Navbar-button:hover {
+    color: #5c6bc0;
+    /* font-weight: bold; */
+}
+
+.Navbar-button.active {
+    color: #5c6bc0;
+    /* font-weight: bold; */
+}
+
+.Navbar-button.active::before,
+.Navbar-button.active::after {
+    background-color: #5c6bc0;
+}
+
+/* .Navbar-button:hover {
+    transform: scale(1.1);
+    background-color: rgb(212, 212, 212);
+    padding: 8px;
+    border-radius: 50px;
+}
+
+.active {
+    transform: scale(1.1);
+    background-color: rgb(212, 212, 212);
+    padding: 8px;
+    border-radius: 50px;
+} */
+
+:root {
+    --menu-text: 'SF Pro Text', -apple-system, BlinkMacSystemFont, Roboto, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}

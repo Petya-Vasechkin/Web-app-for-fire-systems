@@ -1,0 +1,152 @@
+.floor-controls {
+  margin-bottom: 1rem;
+  display: flex;
+  gap: 10px;
+  flex-wrap: nowrap;
+  /* Запрет переноса элементов */
+  overflow-x: auto;
+  /* Полоса прокрутки по горизонтали при необходимости */
+  /* gap: 10px; */
+  width: 660px;
+  align-items: center;
+}
+
+.floor-controls-buttons {
+  width: 100%;
+  min-width: 100px;
+  padding: 8px;
+
+  border: none;
+  border-radius: 20px;
+  background-color: #2d2f31;
+  color: white;
+  cursor: pointer;
+}
+
+.parent-of-the-grid-container {
+  min-height: 300px;
+}
+
+.grid-container {
+  display: grid;
+  gap: 1px;
+  background-color: #ccc;
+  border: 1px solid #ccc;
+  min-width: 0;
+}
+
+.grid-manage-panel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.puzzle-grid-form {
+  padding-top: 1rem;
+  width: 100%;
+}
+
+.puzzle-grid-form label {
+  padding: 0 1rem;
+}
+
+.puzzle-grid-form input {
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  text-align: center;
+  padding: 8px;
+}
+
+.grid-buttons-manage-panel {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.grid-building-form {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-building-form button {
+  width: 100%;
+  max-width: 150px;
+  padding: 8px;
+
+  border: none;
+  border-radius: 20px;
+  background-color: #2d2f31;
+  color: white;
+  cursor: pointer;
+}
+
+.grid-building-form input {
+  width: 100%;
+  max-width: 300px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  align-items: center;
+  text-align: center;
+}
+
+.active-notactive-grid-button {
+  width: 100%;
+  max-width: 150px;
+  padding: 8px;
+
+  border: none;
+  border-radius: 20px;
+  background-color: #2d2f31;
+  color: white;
+  cursor: pointer;
+}
+
+.grid-cell {
+  background-color: #fff;
+  /* border: 1px solid #ddd; */
+  /* min-width: 50px;
+  min-height: 50px; */
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.puzzle-area {
+  display: flex;
+  padding-top: 1rem;
+  /* justify-content: center; */
+  align-items: center;
+  flex-wrap: nowrap;
+  /* Запрет переноса элементов */
+  overflow-x: auto;
+  /* Полоса прокрутки по горизонтали при необходимости */
+  /* gap: 10px; */
+  width: 660px;
+}
+
+.puzzle {
+  /* background-color: lightblue; */
+  border: 1px solid #5c6bc0;
+  padding: 10px;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  flex: 0 0 auto;
+}
+
+.puzzle:not(:last-child) {
+  border-right: none;
+}

@@ -1,0 +1,58 @@
+.controlpanel-container {
+    display: flex;
+    padding: 10px 40px;
+    background-color: #fff;
+    border-radius: 8px;
+    min-height: 590px;
+    flex-direction: column;
+}
+
+.navbar-controlpanel {
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background-color: #fff;
+    padding-bottom: 20px;
+    justify-content: space-between;
+}
+
+.logo-and-search {
+    display: flex;
+    /* text-align: center; */
+    justify-content: left;
+    /*left-right*/
+    align-items: center;
+    /*up-down*/
+    width: 50%;
+}
+
+.my-r-logo-controlpanel {
+    height: auto;
+    width: auto;
+    max-height: 40px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10%;
+    margin-right: 30px;
+}
+
+.logo-and-search input {
+    width: 100%;
+    max-width: 300px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.main-content-controlpanel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1; /* Take up the remaining space */
+    text-align: center;
+    flex-direction: column;
+    width: 100%;
+}
+

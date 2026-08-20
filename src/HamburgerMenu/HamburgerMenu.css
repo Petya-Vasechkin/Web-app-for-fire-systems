@@ -1,0 +1,57 @@
+.hamburger-menu-container {
+  position: relative;
+}
+
+.hamburger-menu {
+  display: inline-block;
+  flex-direction: column;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.hamburger-menu div {
+  width: 30px;
+  /* Width of the menu */
+  height: 3px;
+  /* Height of each line */
+  background-color: #333;
+  /* Color of the lines */
+  margin: 6px 0;
+  /* Space between the lines */
+  transition: all 0.3s ease-in-out;
+}
+
+/* Work */
+.dropdown-menu {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 100%;
+  /* Position below the hamburger icon */
+  right: 20%;
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  width: 200px;
+  /* Set a width for the dropdown */
+  z-index: 1000;
+  /* Ensure it sits on top of other content */
+  border-radius: 8px;
+}
+
+.dropdown-menu .Navbar-button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Rotation */
+.hamburger-menu.active div:nth-child(1) {
+  transform: translateY(9px) rotate(45deg);
+}
+
+.hamburger-menu.active div:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger-menu.active div:nth-child(3) {
+  transform: translateY(-9px) rotate(-45deg);
+}

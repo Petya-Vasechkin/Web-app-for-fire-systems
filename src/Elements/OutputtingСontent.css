@@ -1,0 +1,12 @@
+.main-pages-advantages-of-system {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    flex: 1;
+}
+
+.main-pages-advantages-of-system strong {
+    padding: 8px;
+}
