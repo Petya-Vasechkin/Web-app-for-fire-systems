@@ -1,80 +1,76 @@
-HEAD
-# Web-app-for-fire-systems
-Web app for analyzing the readiness and technical condition of fire systems
+# Fire Systems Readiness Analyzer
 
-# Getting Started with Create React App
+A React web application for assessing the operational readiness and technical condition of fire-safety systems.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Application preview
 
-## Available Scripts
+![Fire Systems Readiness Analyzer interface](./assets/app-preview.png)
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- Enter and review fire-system technical information
+- Assess the operational readiness and technical condition of a fire system
+- Display assessment results in a clear web interface
+- Provide a structured workflow for reviewing fire-safety data
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technology stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- React
+- JavaScript
+- HTML5
+- CSS3
+- Create React App
+- Webpack
 
-### `npm test`
+## Prerequisites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To run the project locally, install:
 
-### `npm run build`
+- Node.js
+- npm
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation and launch
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+   git clone git@github.com:Petya-Vasechkin/Web-app-for-fire-systems.git
+   ```
 
-### `npm run eject`
+2. Open the project folder:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+   cd Web-app-for-fire-systems
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Install dependencies:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```bash
+   npm install
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   This command downloads all packages specified in `package.json` and creates the local `node_modules` directory.
 
-## Learn More
+4. Start the development server:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ```bash
+   npm start
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+5. Open the application in a browser:
 
-### Code Splitting
+   ```text
+   http://localhost:3000
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Compatibility note
 
-### Analyzing the Bundle Size
+This project uses a legacy Create React App / Webpack configuration. If `npm start` fails with `ERR_OSSL_EVP_UNSUPPORTED` on newer Node.js versions, run:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+NODE_OPTIONS=--openssl-legacy-provider npm start
+```
 
-### Making a Progressive Web App
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-55e5104 (Initial commit: React fire systems project)
-
-<img width="2551" height="811" alt="Screenshot 2026-08-20 at 22 23 40" src="https://github.com/user-attachments/assets/3e1ec73c-7818-4ec3-baf2-52e547e2058a" />
-
-npm install
-npm start
+Pavel Metelev
